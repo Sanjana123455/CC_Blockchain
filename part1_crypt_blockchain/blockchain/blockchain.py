@@ -12,7 +12,7 @@ from Crypto.Signature import PKCS1_v1_5
 import hashlib
 import json
 from time import time
-from urllib.parse import urlparse
+from six.moves.urllib.parse import urlparse
 from uuid import uuid4
 
 import requests
